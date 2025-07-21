@@ -1,0 +1,241 @@
+.contact {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.sectionTitle::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: #2563eb;
+  border-radius: 2px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.contactInfo {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.contactInfo h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.contactInfo p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.contactMethods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.contactMethod {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contactMethod:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.15);
+  border-left: 4px solid #2563eb;
+}
+
+.contactMethod:last-child {
+  cursor: default;
+}
+
+.contactIcon {
+  width: 28px;
+  height: 28px;
+  color: #2563eb;
+  flex-shrink: 0;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.contactLabel {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.contactValue {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.socialLink {
+  padding: 1rem 2rem;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.3);
+}
+
+.socialLink:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 2.8rem;
+  }
+
+  .contactInfo h3 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .contact {
+    padding: 4rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .contactInfo h3 {
+    font-size: 1.5rem;
+  }
+
+  .contactInfo p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .contactMethod {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .socialLinks {
+    gap: 1rem;
+  }
+
+  .socialLink {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+  .contact {
+    padding: 3rem 0;
+  }
+
+  .container {
+    padding: 0 0.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .contactInfo h3 {
+    font-size: 1.3rem;
+  }
+
+  .contactMethod {
+    padding: 1rem;
+    gap: 0.8rem;
+  }
+
+  .contactIcon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .contactValue {
+    font-size: 1rem;
+  }
+
+  .socialLink {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .socialLinks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socialLink {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+  }
+}
