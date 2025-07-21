@@ -26,9 +26,9 @@ Best regards,`
         <h2 className={styles.sectionTitle}>Get In Touch</h2>
         <div className={styles.content}>
           <div className={styles.contactInfo}>
-            <h3>Let's Connect</h3>
+            <h3>Let&apos;s Connect</h3>
             <p>
-              I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to
+              I&apos;m always interested in new opportunities and collaborations. Feel free to reach out if you&apos;d like to
               discuss a project or just say hello!
             </p>
 

@@ -8,12 +8,12 @@ const About = () => {
         <div className={styles.content}>
           <div className={styles.bio}>
             <p>
-              Hi, I'm Fazeel Bin Khalid, a fresh Computer Science student at FAST NUCES, with a strong passion for web development and software engineering. 
-              I’ve built a variety of projects using modern technologies like Next.js, React, .NET and the MERN stack, focusing on responsive design, performance, and clean code architecture.
+              Hi, I&apos;m Fazeel Bin Khalid, a fresh Computer Science student at FAST NUCES, with a strong passion for web development and software engineering. 
+              I&apos;ve built a variety of projects using modern technologies like Next.js, React, .NET and the MERN stack, focusing on responsive design, performance, and clean code architecture.
             </p>
             <p>
-             I enjoy creating full-stack applications — from sleek user interfaces to powerful backend systems using Node.js and MongoDB. Alongside that, I’ve also gained professional experience working with ASP.NET and SQL Server during my time at Caregenix for an year, where I contributed to real-world healthcare solutions and strengthened my backend skills.
-With a growth mindset and a love for problem-solving, I’m always exploring new technologies, building useful tools, and pushing myself to the next level.
+             I enjoy creating full-stack applications — from sleek user interfaces to powerful backend systems using Node.js and MongoDB. Alongside that, I&apos;ve also gained professional experience working with ASP.NET and SQL Server during my time at Caregenix for an year, where I contributed to real-world healthcare solutions and strengthened my backend skills.
+With a growth mindset and a love for problem-solving, I&apos;m always exploring new technologies, building useful tools, and pushing myself to the next level.
             </p>
           </div>
           <div className={styles.details}>
@@ -21,7 +21,6 @@ With a growth mindset and a love for problem-solving, I’m always exploring new
               <h3>Background</h3>
               <p>
                 I come from an educated and supportive family that has always emphasized the value of learning, discipline, and continuous growth. This strong foundation instilled in me a passion for technology and a commitment to constantly improving my skills in software development.
-
               </p>
             </div>
             <div className={styles.detailCard}>
@@ -52,7 +51,7 @@ With a growth mindset and a love for problem-solving, I’m always exploring new
                 <span className={styles.skill}>JavaScript</span>
                 <span className={styles.skill}>TypeScript</span>
                 <span className={styles.skill}>PostgreSQL</span>
-                 <span className={styles.skill}>SQL</span>
+                <span className={styles.skill}>SQL</span>
                 <span className={styles.skill}>AWS</span>
               </div>
             </div>
